@@ -2,12 +2,13 @@
   "expo": {
     "name": "Khata",
     "slug": "khata-ledger",
+    "owner": "gouharaf",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
-    "icon": "./assets/icon.png",
+    "icon": "./icon.png",
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./splash-icon.png",
       "backgroundColor": "#20301F",
       "resizeMode": "contain"
     },
@@ -18,12 +19,17 @@
     "android": {
       "package": "com.khata.ledger",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./adaptive-icon.png",
         "backgroundColor": "#20301F"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9174c7e0-c2b9-4a63-b28f-2a01ac7bd644"
+      }
     }
   }
 }
